@@ -1,0 +1,27 @@
+
+import java.util.Scanner;
+
+  public class TriangleCalc 
+  {
+	  public static void main(String[]args )
+	  {
+	    	Scanner keyboard = new Scanner (System.in);
+		
+	    	double a, b, c;
+		
+	    	System.out.print("a = ");
+	    	a = keyboard.nextDouble();
+	  	
+		    System.out.print("b = ");
+	    	b = keyboard.nextDouble();
+				
+	    	System.out.print("c = ");
+		    c = keyboard.nextDouble();
+						
+	    	if ((a*a) + (b*b) == (c*c))
+			    System.out.println("The triangle is a right triangle");
+			    
+	    	else 
+			    System.out.println("it is not a right triangle.");
+	}
+}
